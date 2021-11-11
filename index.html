@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width" initial-scale="1.0">
+        <title> Morning Calm </title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="preconnect" href="http://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600&family=Noto+Sans+KR&display=swap">
+        <!-- JS -->
+        <script defer src="js/bg.js"></script>
+        <script defer src="js/login.js"></script>
+        <script defer src="js/clock.js"></script>
+        <script defer src="js/todo.js"></script>
+
+
+    </head>
+    <body>
+        <h1 id="greetings" class="hidden"></h1>
+        <h1 class="hidden" id="log-off"></h1>
+        <form class="hidden" id="login-form">
+            <input maxlength="15" type="text" placeholder="User name" required>
+            <input type="submit" value="Log in">
+        </form>
+
+        <h2 id="clock">00:00:00</h2>
+
+        <form id="todolist-form">
+            <input type="text" placeholder="Write here what you want to do today." required>
+        </form>
+        <ul id="todolist"></ul>
+
+        <div id="quotes">
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="weather">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </body>
+</html>
