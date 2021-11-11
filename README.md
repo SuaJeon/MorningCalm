@@ -1,4 +1,4 @@
-# MorningCalm
+# MorningCalm : Momentum clone coding
  
 # ver.0.0.0
 
