@@ -13,9 +13,9 @@ The quiet reflection start page :)
 
 - inspiring quotes display
 
- randomly display
+	randomly display
 
- visible all the time 
+	visible all the time 
 
 
 - get coordinate and weather info / display on the page
