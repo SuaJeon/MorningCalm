@@ -32,6 +32,9 @@ body{
     font-size: 2rem;
     font-weight: 600;
 }
+    #greetings:hover{
+        color:rgb(65, 160, 70);
+    }
 
 #login-form{
     text-align: center;
@@ -135,7 +138,7 @@ body{
         margin: 0 auto;
     }
     #todolist li:hover{
-        color:rgb(255, 166, 0);
+        color:rgb(65, 160, 70);
     }
     #todolist button{
         margin-left:10px;
@@ -152,3 +155,21 @@ body{
         cursor: pointer;
     }
 
+#quotes{
+    text-align: center;
+    position:fixed;
+    bottom:20px;
+    margin-left: 36px;
+    font-size:0.8rem;
+    font-weight: 200;
+    color:rgb(65, 160, 70);
+}
+
+#weather{
+    position:fixed;
+    bottom:20px;
+    right:36px;
+    color:rgb(65, 160, 70);
+    font-size:0.9rem;
+    font-weight: 700;
+}
