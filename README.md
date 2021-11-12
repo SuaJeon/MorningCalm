@@ -14,6 +14,7 @@ The quiet reflection start page :)
 - inspiring quotes display
 
 	randomly display
+
 	visible all the time 
 
 
